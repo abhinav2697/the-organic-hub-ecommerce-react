@@ -1,0 +1,10 @@
+@import url("https://uilight.netlify.app/main.css");
+
+
+.page {
+  overflow: hidden;
+}
+
+:root {
+  --primary-color: #1290f7;
+}
