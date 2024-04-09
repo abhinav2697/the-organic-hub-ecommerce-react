@@ -1,0 +1,23 @@
+.new-arrival-section{
+    gap:5rem;
+}
+
+.new-arrival-banner-container{
+    width:43vw;
+    height:17vw;
+    padding:2rem;
+    background-color: var(--text-color-secondary);
+}
+
+.new-arrival-img{
+    width:15rem;
+}
+
+.collection-details{
+    margin-bottom:auto;
+    color: var(--text-color-primary);
+}
+
+.collection-title{
+    font-weight:700;
+}

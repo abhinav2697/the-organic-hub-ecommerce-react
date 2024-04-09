@@ -1,0 +1,18 @@
+.main-page-container{
+    margin:4rem 3.5rem;
+}
+
+.main-banner{
+    margin:4rem 0;
+}
+.main-banner:hover{
+    cursor: pointer;
+}
+
+.main-banner-image{
+    height: 31.25rem;
+    background-image: url("../../assets/hero-img1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
