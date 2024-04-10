@@ -20,7 +20,7 @@ export const AuthLogin = () => {
     }
 
     const handleTestCredentialsLogin = () => {
-        userLogin("prakash@gmail.com", "prakashsakari", setAlert)
+        userLogin("abhinav@gmail.com", "abhinavkulkarni", setAlert)
     }
 
     const handleLoginClick = () => {
