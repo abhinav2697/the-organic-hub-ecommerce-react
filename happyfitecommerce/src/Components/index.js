@@ -12,11 +12,14 @@ export { FilterByDelivery } from "./Filter/FilterByDelivery";
 export { ClearFilter } from "./Filter/ClearFilter";
 export { FilterByCategory } from "./Filter/FilterByCategory";
 export { FilterByRating } from "./Filter/FilterByRating";
+export { WishlistProduct } from "./ProductCard/WishlistProduct";
+export { FinalPrice } from "./FinalPrice/FinalPrice";
 export { ProductCardHorizontal } from "./ProductCard/ProductCardHorizontal";
-
 export { AuthLogin } from "./Auth/Login";
 export { AuthSignUp } from "./Auth/SignUp";
 export { ProductDetails } from "./ProductCard/ProductDetails";
 export { RequiresAuth } from "./RequiresAuth/RequiresAuth";
+export { Loader } from "./Loader/Loader";
 export { Alert } from "./Alert/Alert";
+export { Checkout } from "./Checkout/Checkout";
 export { Brands } from "./Brands/Brands";
