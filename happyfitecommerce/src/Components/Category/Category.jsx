@@ -1,26 +1,26 @@
-
-import { useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { useFilter } from "../../context/";
+import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useFilter } from '../../context/';
 
 const Category = () => {
-
   const [categories, setCategories] = useState([]);
-  const [error, setError] = useState("");
+  const [error, setError] = useState('');
   const navigate = useNavigate();
-  const {productDispatch} = useFilter();
+  const { productDispatch } = useFilter();
 
   useEffect(() => {
     (async () => {
-      try{
-        const {data : {categories}} = await axios.get("/api/categories")
-        setCategories(categories)
-      }catch(error){
-        setError("No products to display")
+      try {
+        const {
+          data: { categories }
+        } = await axios.get('/api/categories');
+        setCategories(categories);
+      } catch (error) {
+        setError('No products to display');
       }
-    })()
-  }, [])
+    })();
+  }, []);
 
   return (
     <main className="main-page-container">
@@ -28,14 +28,16 @@ const Category = () => {
         {categories.map(({ imgUrl, alt, category }) => {
           return (
             <>
-              <div className="relative effect link" onClick={() => {
-                productDispatch({
-                  type: "CATEGORY",
-                  payload: category
-                })
-                navigate("/products")
-              }}>
-
+              <div
+                className="relative effect link"
+                onClick={() => {
+                  productDispatch({
+                    type: 'CATEGORY',
+                    payload: category
+                  });
+                  navigate('/products');
+                }}
+              >
                 <div className="category category-men">
                   <img
                     className="category-image border-radius-4"
@@ -47,7 +49,7 @@ const Category = () => {
                   <div className="men-overlay d-flex justify-center">
                     {category}
                   </div>
-                </div> */}
+            </div> */}
               </div>
             </>
           );
