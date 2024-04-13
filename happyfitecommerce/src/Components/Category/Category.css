@@ -1,0 +1,44 @@
+.category {
+  width: 20rem;
+}
+
+.effect {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.effect:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.category-image {
+  width: 100%;
+  height: 12rem;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.footwear-category {
+  gap: 2.5rem;
+  margin-top: 7rem;
+}
+
+.gap-48px {
+  gap: 3rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-color-primary);
+  
+}
+
+.men-overlay {
+  width: 100%;
+  background-color: var(--border-color);
+}
