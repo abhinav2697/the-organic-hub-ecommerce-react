@@ -1,0 +1,53 @@
+.sidebar-position {
+    margin-top: 5rem;
+    padding-bottom: 7rem;
+    margin-bottom: 2rem;
+    position: fixed;
+    overflow: auto;
+    width: 20rem;
+  }
+  
+  .border-right {
+    border-right: 1px solid var(--border-color);
+  }
+  
+  .mg-left {
+    margin-left: auto;
+  }
+  
+  .sub-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .link-primary {
+    font-size: 1.2rem;
+  }
+  
+  .margin16-top-down {
+    margin: 1rem 0;
+  }
+  
+  .margin8-top-down {
+    margin: 8px 0;
+  }
+  
+  .slider {
+    width: 14rem;
+  }
+  
+  .gap-large {
+    gap: 3.5rem;
+  }
+  
+  .check-box {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .clear-btn {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+  
