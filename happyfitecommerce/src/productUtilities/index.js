@@ -11,5 +11,5 @@ export { isInwishlist } from "./wishlist";
 export { isInCart } from "./cart";
 export { isAddressSelected } from "./isAddressSelected";
 
-export { isInCart } from "./cart";
+
 
