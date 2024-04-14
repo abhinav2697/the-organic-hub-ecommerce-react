@@ -1,3 +1,4 @@
+
 import "./Loader.css";
 export const Loader = () => {
     return (
@@ -5,4 +6,13 @@ export const Loader = () => {
             <div className="loader"></div>
         </div>
     )
+
+import "./Loader.css";
+export const Loader = () => {
+    return (
+        <div className="loader-container">
+            <div className="loader"></div>
+        </div>
+    )
+
 }
