@@ -1,0 +1,17 @@
+.new-add{
+    width:30vw;
+}
+
+.address-container{
+    padding: 2rem;
+}
+
+.address-display-container.final-add{
+    margin-top: 0;
+    width: 40vw;
+    align-self: flex-start;
+}
+
+.checkout-page-container{
+    margin-top: 6rem;
+}
