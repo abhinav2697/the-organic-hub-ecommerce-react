@@ -21,5 +21,7 @@ export { ProductDetails } from "./ProductCard/ProductDetails";
 export { RequiresAuth } from "./RequiresAuth/RequiresAuth";
 export { Loader } from "./Loader/Loader";
 export { Alert } from "./Alert/Alert";
+export { AddressForm } from "./Address/AddressForm";
+export { DisplayAddress } from "./Address/DisplayAddress";
 export { Checkout } from "./Checkout/Checkout";
 export { Brands } from "./Brands/Brands";
