@@ -1,5 +1,5 @@
 import { Fragment ,useState,useEffect} from "react"
-import { Navbar,Banner,Category,Brands,Footer } from "../Components"
+import { Alert,Loader,Navbar,Banner,Category,Brands,Footer } from "../Components"
 import "./Home.css"
 export const Home = () => {
     const [route, setRoute] = useState();
