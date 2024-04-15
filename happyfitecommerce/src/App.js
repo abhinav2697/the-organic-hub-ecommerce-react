@@ -1,14 +1,23 @@
-
 import './App.css';
+import { RequiresAuth } from './Components';
 import { BrowserRouter as  Routes,Route } from "react-router-dom";
-import { Home } from './Pages/Home';
+import { Home,Products,Wishlist,Cart,Login,Signup,SingleProduct, Address, CheckoutPage,Order,Error } from "./Pages";
 
 function App() {
   return (
     <div className='App'>
       <Routes>
-      <Route path="/" element={<Home/>} />
-        
+        <Route path="/" element={<Home />} />
+        <Route path="products" element={<Products />} />
+        <Route path="/wishlist" element={<RequiresAuth><Wishlist /></RequiresAuth>} />
+        <Route path="/cart" element={<RequiresAuth><Cart /></RequiresAuth>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/product/:productId" element={<SingleProduct />} />
+        <Route path="/address" element={<Address />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/order" element={<Order />} />
+        <Route path="*" element ={<Error/>}/>
      </Routes>
     </div>
   );
