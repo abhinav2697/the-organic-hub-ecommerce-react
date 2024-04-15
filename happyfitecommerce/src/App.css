@@ -1,4 +1,12 @@
 @import url("https://uilight.netlify.app/main.css");
+@import url("./Components/Navbar/Navbar.css");
+@import url("./Components/Banner/Banner.css");
+@import url("./Components/Category/Category.css");
+@import url("./Components/NewArrivals/NewArrivals.css");
+@import url("./Components/Footer/Footer.css");
+@import url("./Components/ProductCard/ProductCard.css");
+@import url("./Components/Filter/Filter.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 
 .page {
