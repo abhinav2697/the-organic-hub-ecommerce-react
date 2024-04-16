@@ -112,7 +112,7 @@ export const AuthSignUp = () => {
           </button>
         </div>
         <div className={getClassName(display)}>
-          <span>Password must contain at least 6 characters</span>
+          <span>Password must contain atleast 6 characters</span>
           <span>Password cannot contain any special character(@,_,#,..)</span>
         </div>
         <div className="form-container relative">

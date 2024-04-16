@@ -1,5 +1,4 @@
-import { useFilter } from '../../context/filter-product-context';
-
+import { useFilter } from "../../context/filter-product-context";
 export const FilterByRating = () => {
   const {
     state: { rating },
@@ -8,7 +7,7 @@ export const FilterByRating = () => {
 
   const handleRatingChange = (e) => {
     productDispatch({
-      type: 'RATING',
+      type: "RATING",
       payload: e.target.value
     });
   };
@@ -23,7 +22,7 @@ export const FilterByRating = () => {
             type="radio"
             name="rating"
             value="4"
-            checked={rating === '4'}
+            checked={rating === "4"}
             onChange={(e) => handleRatingChange(e)}
           />
           4 stars and above
@@ -36,7 +35,7 @@ export const FilterByRating = () => {
             type="radio"
             name="rating"
             value="3"
-            checked={rating === '3'}
+            checked={rating === "3"}
             onChange={(e) => handleRatingChange(e)}
           />
           3 stars and above
@@ -49,7 +48,7 @@ export const FilterByRating = () => {
             type="radio"
             name="rating"
             value="2"
-            checked={rating === '2'}
+            checked={rating === "2"}
             onChange={(e) => handleRatingChange(e)}
           />
           2 stars and above
@@ -62,7 +61,7 @@ export const FilterByRating = () => {
             type="radio"
             name="rating"
             value="1"
-            checked={rating === '1'}
+            checked={rating === "1"}
             onChange={(e) => handleRatingChange(e)}
           />
           1 star and above

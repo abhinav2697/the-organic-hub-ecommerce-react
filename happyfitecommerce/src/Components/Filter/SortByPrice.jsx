@@ -1,4 +1,4 @@
-import { useFilter } from '../../context/filter-product-context';
+import { useFilter } from "../../context/filter-product-context";
 
 export const SortByPrice = () => {
   const {
@@ -9,6 +9,7 @@ export const SortByPrice = () => {
   return (
     <div className="sort-container">
       <h3 className="sub-title margin16-top-down">Sort by</h3>
+
       <div className="margin8-top-down">
         <label className="men d-flex gap align-center">
           <input
@@ -16,12 +17,12 @@ export const SortByPrice = () => {
             type="radio"
             name="sortByPrice"
             value="lowToHigh"
-            checked={sortBy === 'LOW_TO_HIGH'}
-            onChange={() => {
+            checked={sortBy === "LOW_TO_HIGH"}
+            onChange={() =>
               productDispatch({
-                type: 'LOW_TO_HIGH'
-              });
-            }}
+                type: "LOW_TO_HIGH"
+              })
+            }
           />
           Price - Low to High
         </label>
@@ -33,12 +34,12 @@ export const SortByPrice = () => {
             type="radio"
             name="sortByPrice"
             value="highToLow"
-            checked={sortBy === 'HIGH_TO_LOW'}
-            onChange={() => {
+            checked={sortBy === "HIGH_TO_LOW"}
+            onChange={() =>
               productDispatch({
-                type: 'HIGH_TO_LOW'
-              });
-            }}
+                type: "HIGH_TO_LOW"
+              })
+            }
           />
           Price - High to Low
         </label>

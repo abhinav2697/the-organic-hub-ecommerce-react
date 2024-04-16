@@ -1,9 +1,9 @@
-const getDiscountedProducts = (products, percent) => {
+const getDiscountedProducts = (products, precent) => {
     const filterByDiscount = products.filter(
-        ({ discount }) => discount >= Number(percent)
-        
-    )
+      ({ discount }) => discount >= Number(precent)
+    );
     return filterByDiscount;
-}
-
-export { getDiscountedProducts };
+  };
+  
+  export { getDiscountedProducts };
+  

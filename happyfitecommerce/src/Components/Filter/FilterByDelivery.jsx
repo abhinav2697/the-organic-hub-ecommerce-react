@@ -1,4 +1,5 @@
-import { useFilter } from '../../context/filter-product-context';
+import { useFilter } from "../../context/filter-product-context";
+
 export const FilterByDelivery = () => {
   const { state, productDispatch } = useFilter();
   return (
@@ -11,7 +12,7 @@ export const FilterByDelivery = () => {
             checked={state.fastDelivery}
             onChange={() =>
               productDispatch({
-                type: 'DELIVERY'
+                type: "DELIVERY"
               })
             }
           />

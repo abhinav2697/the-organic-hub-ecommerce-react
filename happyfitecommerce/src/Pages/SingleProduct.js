@@ -4,13 +4,14 @@ import { useState, useEffect, Fragment } from "react";
 import { Navbar, ProductDetails, Alert, Loader } from "../Components";
 import { useAlert } from "../context";
 
-
 export const SingleProduct = () => {
     const [products, setProducts] = useState([]);
     const [error, setError] = useState(false);
     const { productId } = useParams();
     const { alert } = useAlert();
     const [isLoading, setIsLoading] = useState(true);
+
+  useEffect
 
     useEffect(() => {
         (async () => {
@@ -25,16 +26,16 @@ export const SingleProduct = () => {
         })()
     }, [])
 
+  const sproduct = products.find((prod) => prod._id === productId);
 
-    const product = products.find((prod) => prod._id === productId);
-    return (
-        <Fragment>
-          {isLoading ? <Loader /> : (<Fragment>
-            <Navbar />
-            {(product && !error) ? (<ProductDetails product={product} />) : (<Loader />)}
-              {alert.open && <Alert />}
-            </Fragment>)
-            }
-        </Fragment>
-      );
-    };
+  return (
+    <Fragment>
+      {isLoading ? <Loader /> : (<Fragment>
+        <Navbar />
+        {(sproduct && !error) ? (<ProductDetails sproduct={sproduct} />) : (<Loader />)}
+          {alert.open && <Alert />}
+        </Fragment>)
+        }
+    </Fragment>
+  );
+};

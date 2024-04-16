@@ -1,17 +1,16 @@
 .margin-top {
-    margin-top: 7rem;
-  }
-  
-  .product-display {
-    margin-top: 2rem;
-    margin-left: 10rem;
-    padding: 2rem 5rem;
-  }
-  
-  .flex-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
+  margin-top: 7rem;
+}
+
+.product-display {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  padding: 2rem 5rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}

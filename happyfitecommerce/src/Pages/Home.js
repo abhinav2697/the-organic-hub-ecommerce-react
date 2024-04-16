@@ -1,19 +1,31 @@
-import { Fragment ,useState,useEffect} from "react"
-import { Alert,Loader,Navbar,Banner,Category,Brands,Footer } from "../Components"
-import "./Home.css"
-export const Home = () => {
+import {
+  Navbar,
+  Banner,
+  Category,
+  NewArrivals,
+  Footer,
+  Loader,
+  Alert,
+  Brands
+  } from "../Components";
+  import { useEffect, useState, Fragment } from "react";
+  import {useAlert} from "../context";
+  import "./Home.css";
+  
+  const Home = () => {
     const [route, setRoute] = useState();
     const [isLoading, setIsLoading] = useState(false);
-   
+    const {alert} = useAlert();
+  useEffect(() => {
+    setTimeout(() => setIsLoading(true), 500)
+  }, [])
 
-    useEffect(() => {
-        setTimeout(()=>setIsLoading(true),500)
-    }, [])
-    useEffect(() => {
-        setRoute("home");
-    }, [route]);
+  useEffect(() => {
+    setRoute("home");
+  }, [route]);
+
     return (
-        <Fragment>
+      <Fragment>
         {!isLoading ? <Loader /> : (<div className="page">
         <Navbar route={route} />
         <main>
@@ -28,3 +40,6 @@ export const Home = () => {
       </Fragment>
     );
   };
+  
+  export { Home };
+  

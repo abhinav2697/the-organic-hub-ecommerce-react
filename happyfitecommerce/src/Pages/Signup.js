@@ -2,7 +2,7 @@ import { AuthSignUp, Navbar,Alert } from "../Components";
 import { Fragment, useEffect, useState } from "react";
 import { useAlert } from "../context";
 
-export const Signup = () => {
+export const SignUp = () => {
     const [route, setRoute] = useState();
     const { alert } = useAlert();
 

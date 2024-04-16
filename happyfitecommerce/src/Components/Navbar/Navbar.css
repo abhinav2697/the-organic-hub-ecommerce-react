@@ -1,89 +1,87 @@
-
 .heading {
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    padding: 0.5rem 5rem;
-    border-bottom: 1px solid var(--border-color);
-    width: 100vw;
-    overflow: hidden;
-    z-index: 1;
-  }
-  
-  .icon {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-  }
-  
-  .search-box {
-    width: 25rem;
-    padding-left: 2rem;
-    font-size: 1rem;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid var(--primary-color);
-  }
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  padding: 0.5rem 5rem;
+  border-bottom: 1px solid var(--border-color);
+  width: 100vw;
+  overflow: hidden;
+  z-index: 1;
+}
 
-  .search-box:focus {
-    outline: none;
-  }
-  
-  .search-icon {
-    top: 8px;
-    left: 4px;
-  }
-  
-  .search-box-container {
-    margin-left: auto;
-  }
-  
-  .navigation {
-    margin-left: auto;
-  }
-  
-  .icon-img {
-    width: 2rem;
-    height: 2rem;
-    transition-property: transform;
-    transition-duration: 0.5s;
-  }
-  
-  .icon-img:hover {
-    transform: scale(1.2);
-  }
-  
-  .badge-number {
-    top: -0.5rem;
-    right: -0.5rem;
-  }
-  
-  .wishlist-small {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  
-  .fav-outline {
-    background-color: var(--text-color-secondary);
-    border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-  
-  .wishlist-color {
-    color: var(--red-badge);
-  }
-  
-  .gap-8px {
-    gap: 0.5rem;
-  }
-  
-  .button {
-    font-size: 1rem;
-  }
-  
-  .btn-outline-primary:hover {
-    cursor: pointer;
-    background-color: var(--primary-color);
-    color: var(--text-color-secondary);
-  }
-  
+.icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.search-box {
+  width: 25rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.search-icon {
+  top: 8px;
+  left: 4px;
+}
+
+.search-box-container {
+  margin-left: auto;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+.icon-img {
+  width: 2rem;
+  height: 2rem;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.icon-img:hover {
+  transform: scale(1.2);
+}
+
+.badge-number {
+  top: -0.5rem;
+  right: -0.5rem;
+}
+
+.wishlist-small {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.fav-outline {
+  background-color: var(--text-color-secondary);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.wishlist-color {
+  color: var(--red-badge);
+}
+
+.gap-8px {
+  gap: 0.5rem;
+}
+
+.button {
+  font-size: 1rem;
+}
+
+.btn-outline-primary:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--text-color-secondary);
+}

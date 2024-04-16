@@ -1,17 +1,17 @@
 export const cartReducer = (cartState, { type, payload }) => {
   switch (type) {
-    case 'ADD_TO_CART':
+    case "ADD_TO_CART":
       return {
         ...cartState,
-        cart: [...cartState.cart, { ...payload, itemCount: 1 }]
+        cart: [...cartState.cart, { ...payload, itemCount: 1 }],
       };
-    case 'REMOVE_FROM_CART':
+    case "REMOVE_FROM_CART":
       return {
         ...cartState,
-        cart: cartState.cart.filter(({ _id }) => _id !== payload)
+        cart: cartState.cart.filter(({_id}) => _id !== payload)
       };
 
-    case 'INCREASE_QUANTITY':
+    case "INCREASE_QUANTITY":
       return {
         ...cartState,
         cart: cartState.cart.map((product) =>
@@ -21,7 +21,7 @@ export const cartReducer = (cartState, { type, payload }) => {
         )
       };
 
-    case 'DECREASE_QUANTITY':
+    case "DECREASE_QUANTITY":
       return {
         ...cartState,
         cart: cartState.cart.map((product) =>
@@ -31,54 +31,11 @@ export const cartReducer = (cartState, { type, payload }) => {
         )
       };
 
-    case 'CLEAR_CART':
+    case "CLEAR_CART":
       return {
         ...cartState,
         cart: []
-      };
-    default:
-      return cartState;
-  }
-};
-
-export const cartReducer = (cartState, { type, payload }) => {
-  switch (type) {
-    case 'ADD_TO_CART':
-      return {
-        ...cartState,
-        cart: [...cartState.cart, { ...payload, itemCount: 1 }]
-      };
-    case 'REMOVE_FROM_CART':
-      return {
-        ...cartState,
-        cart: cartState.cart.filter(({ _id }) => _id !== payload)
-      };
-
-    case 'INCREASE_QUANTITY':
-      return {
-        ...cartState,
-        cart: cartState.cart.map((product) =>
-          product._id === payload
-            ? { ...product, itemCount: product.itemCount + 1 }
-            : product
-        )
-      };
-
-    case 'DECREASE_QUANTITY':
-      return {
-        ...cartState,
-        cart: cartState.cart.map((product) =>
-          product._id === payload
-            ? { ...product, itemCount: product.itemCount - 1 }
-            : product
-        )
-      };
-
-    case 'CLEAR_CART':
-      return {
-        ...cartState,
-        cart: []
-      };
+      }
     default:
       return cartState;
   }

@@ -1,15 +1,10 @@
-
-.align-self{
-    align-self: flex-start;
+.align-self {
+  align-self: flex-start;
 }
 
-.total-price{
-    padding: 1rem;
-=======
-.align-self{
-    align-self: flex-start;
+.total-price {
+padding: 1rem;
 }
 
-.total-price{
-    padding: 1rem;
-}
+
+

@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import './AddressForm.css';
-import { useAddress } from '../../context';
-import { isAddressSelected } from '../../productUtilities';
+import {useState} from "react";
+import "./AddressForm.css";
+import { useAddress } from "../../context";
+import {isAddressSelected} from "../../productUtilities";
 
 export const DisplayAddress = ({ addresses, isFormOpen, setIsFormOpen }) => {
   const {
@@ -25,17 +25,18 @@ export const DisplayAddress = ({ addresses, isFormOpen, setIsFormOpen }) => {
   };
 
   const handleChange = (event, addressId) => {
-    if (event.target.checked) {
+    if (event.target.checked){
       const updatedAddressess = newAddress.map((newAdd) =>
-        newAdd._id === addressId
-          ? { ...newAdd, isChecked: !newAdd.isChecked }
-          : { ...newAdd, isChecked: false }
+      newAdd._id === addressId
+        ? { ...newAdd, isChecked: !newAdd.isChecked }
+        : { ...newAdd, isChecked: false }
       );
       setNewAddress(updatedAddressess);
       setSelected(true);
-    } else {
+    }else{
       setSelected(false);
     }
+    
   };
 
   return (
@@ -55,7 +56,7 @@ export const DisplayAddress = ({ addresses, isFormOpen, setIsFormOpen }) => {
       </div>
       <div className="address-details d-flex direction-column gap-8px">
         <span>Address - {address}</span>
-        <span>Landmark - {landmark}</span>
+        <span>Landmaark - {landmark}</span>
       </div>
       <div className="update-btn-container absolute top-0 right-0 d-flex gap">
         <button

@@ -1,10 +1,14 @@
-import './AddressForm.css';
-import { useAddress } from '../../context';
-import { v4 as uuid } from 'uuid';
+import "./AddressForm.css";
+import { useAddress } from "../../context";
+import { v4 as uuid } from "uuid";
 
 export const AddressForm = ({ setIsFormOpen }) => {
-  const { userDetails, setUserDetails, newAddress, setNewAddress } =
-    useAddress();
+  const {
+    userDetails,
+    setUserDetails,
+    newAddress,
+    setNewAddress
+  } = useAddress();
   const { name, number, address, landmark } = userDetails;
 
   const handleDummyAddress = () => {
@@ -21,10 +25,11 @@ export const AddressForm = ({ setIsFormOpen }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     setNewAddress([
       ...newAddress,
       {
-        id: uuid(),
+        _id: uuid(),
         name,
         number,
         address,
@@ -35,16 +40,17 @@ export const AddressForm = ({ setIsFormOpen }) => {
 
     setUserDetails({
       ...userDetails,
-      name: '',
-      number: '',
-      address: '',
-      landmark: ''
+      name: "",
+      number: "",
+      address: "",
+      landmark: ""
     });
+
     setIsFormOpen((isFormOpen) => !isFormOpen);
   };
 
   return (
-    <div className="d-flex align-center justify-center form-container">
+    <div className=" d-flex align-center justify-center form-container">
       <form
         className="d-flex direction-column align-center gap address-form"
         onSubmit={handleSubmit}
@@ -92,7 +98,9 @@ export const AddressForm = ({ setIsFormOpen }) => {
         >
           Add Dummy Address
         </button>
-        <button className="button btn-primary cursor address-btn">
+        <button
+          className="button btn-primary cursor address-btn"
+        >
           Add Address
         </button>
       </form>

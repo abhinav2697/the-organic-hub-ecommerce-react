@@ -1,29 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
 import { makeServer } from "./server";
-import { FilterProvider,CartProvider,AuthProvider, AddressProvider, } from './context';
-import { Address } from './Pages';
+import { BrowserRouter } from "react-router-dom";
+import { FilterProvider, CartProvider, AuthProvider, AlertProvider, AddressProvider } from "./context";
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// Call make Server
+makeServer();
+
+ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <FilterProvider>
+    <FilterProvider>
         <CartProvider>
           <AuthProvider>
-            <AddressProvider>
-              <App />
+            <AlertProvider>
+              <AddressProvider>
+                <App />
               </AddressProvider>
-            </AuthProvider>
-          </CartProvider>
-        </FilterProvider>
-      </BrowserRouter>
-  </React.StrictMode>
+            </AlertProvider> 
+          </AuthProvider>
+        </CartProvider>
+      </FilterProvider>
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
-reportWebVitals();

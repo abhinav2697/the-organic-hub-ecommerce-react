@@ -32,3 +32,4 @@ const categories = [
 ];
 
 export { categories };
+

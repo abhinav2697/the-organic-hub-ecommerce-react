@@ -1,45 +1,46 @@
 import { useFilter } from "../../context/filter-product-context";
 
 export const FilterByCategory = () => {
-    const { state, productDispatch } = useFilter();
-    const handleChange = (e) => {
-        productDispatch({
-            type: "CATEGORY",
-            payload:e.target.value
-        })
-    }
-    return (
-        <div className="category-title">
-            <h3 className="sub-title margin16-top-down">Category</h3>
-            <div className="select-men">
-                <label className="select-men">
-                    <input
-                        className="check-box"
-                        type="radio"
-                        value="all"
-                        checked={state.category === "all"}
-                        onChange={(e)=>handleChange(e)}
-                    />
-                    All
-                </label>
-            </div>
-            <div className="select-women margin8-top-down">
-                <label className="women d-flex gap">
-                    {" "}
-                    <input 
-                        className="check-box"
-                        type="radio"
-                        value="men"
-                        checked={state.category === "men"}
-                        onChange={(e) => handleChange(e)}
-                    />
-                    Men
-                </label>
-            </div>
-            <div className="select-women margin8-top-down">
-                <label className="women d-flex gap">
-                    {" "}
-                    <input
+  const { state, productDispatch } = useFilter();
+  const handleChange = (e) => {
+    productDispatch({
+      type: "CATEGORY",
+      payload: e.target.value
+    });
+  };
+
+  return (
+    <div className="category-title">
+      <h3 className="sub-title margin16-top-down">Categroy</h3>
+      <div className="select-men">
+        <label className="men d-flex gap">
+          <input
+            className="check-box"
+            type="radio"
+            value="all"
+            checked={state.category === "all"}
+            onChange={(e) => handleChange(e)}
+          />
+          All
+        </label>
+      </div>
+      <div className="select-women margin8-top-down">
+        <label className="women d-flex gap">
+          {" "}
+          <input
+            className="check-box"
+            type="radio"
+            value="men"
+            checked={state.category === "men"}
+            onChange={(e) => handleChange(e)}
+          />
+          Men
+        </label>
+      </div>
+      <div className="select-women margin8-top-down">
+        <label className="women d-flex gap">
+          {" "}
+          <input
             className="check-box"
             type="radio"
             value="women"

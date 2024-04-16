@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { useNavigate } from "react-router-dom";
-import { Checkout, Navbar } from "../components";
+import { Checkout, Navbar } from "../Components";
 import { useAddress } from "../context/";
 
 export const CheckoutPage = () => {

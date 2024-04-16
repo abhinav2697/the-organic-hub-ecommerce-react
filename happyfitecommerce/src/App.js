@@ -1,7 +1,7 @@
 import './App.css';
 import { RequiresAuth } from './Components';
-import { BrowserRouter as  Routes,Route } from "react-router-dom";
-import { Home,Products,Wishlist,Cart,Login,Signup,SingleProduct, Address, CheckoutPage,Order,Error } from "./Pages";
+import {  Routes,Route } from "react-router-dom";
+import { Home,Products,Wishlist,Cart,Login,SignUp,SingleProduct, Address, CheckoutPage,Order,Error } from "./Pages";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/wishlist" element={<RequiresAuth><Wishlist /></RequiresAuth>} />
         <Route path="/cart" element={<RequiresAuth><Cart /></RequiresAuth>} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/product/:productId" element={<SingleProduct />} />
         <Route path="/address" element={<Address />} />
         <Route path="/checkout" element={<CheckoutPage />} />

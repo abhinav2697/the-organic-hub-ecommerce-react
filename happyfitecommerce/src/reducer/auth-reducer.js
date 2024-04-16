@@ -1,42 +1,48 @@
-export const credentialsReducer = (credentials, { type, payload }) => {
+export const credentialsReducer = (credentials, {type, payload}) => {
     switch (type) {
         case "EMAIL":
             return {
                 ...credentials,
                 email: payload,
-                isEmailValid:payload.includes("@")?true:false
+                isEmailValid: payload.includes("@") ? true : false
             }
+  
         case "PASSWORD":
             return {
                 ...credentials,
-                password:payload,
-
+                password: payload
             }
+  
         case "FIRST_NAME":
             return {
                 ...credentials,
-                userName:payload,
+                userName: payload
             }
+  
         case "LAST_NAME":
             return {
                 ...credentials,
-                userName:payload,
+                userLastName: payload
             }
+  
         case "EMAIL_CHECK":
             return {
                 ...credentials,
-                userEmail:payload,
+                userEmail: payload
             }
+  
         case "PASSWORD_CHECK":
             return {
                 ...credentials,
-                userPassword:payload,
+                userPassword: payload
             }
+  
         case "CONFIRM_PASS_CHECK":
             return {
                 ...credentials,
-                userConfirmPassword:payload,
+                userConfirmPassword: payload
             }
+  
         case "CLEAR_INPUT":
             return {
                 ...credentials,
@@ -46,15 +52,18 @@ export const credentialsReducer = (credentials, { type, payload }) => {
                 userPassword: "",
                 userLastName: "",
                 email: "",
-                password:""
+                password: ""
             }
+  
         case "CLEAR_LOGIN_CREDENTIALS":
             return {
                 ...credentials,
                 email: "",
-                password:"",
+                password: ""
             }
+  
         default:
             return credentials
+  
     }
-}
+  }

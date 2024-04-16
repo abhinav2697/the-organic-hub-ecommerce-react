@@ -1,5 +1,5 @@
-import './Filter.css';
-import { useFilter } from '../../context/filter-product-context';
+import "./Filter.css";
+import { useFilter } from "../../context/filter-product-context";
 export const ClearFilter = () => {
   const { productDispatch } = useFilter();
   return (
@@ -9,7 +9,7 @@ export const ClearFilter = () => {
         className="button clear-btn cursor mg-left"
         onClick={() =>
           productDispatch({
-            type: 'CLEAR'
+            type: "CLEAR"
           })
         }
       >

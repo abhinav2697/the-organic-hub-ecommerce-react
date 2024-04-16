@@ -1,1 +1,1 @@
-export const isInwishlist = (products, productId) => products.some(({ _id }) => _id === productId);
+export const isInwishlist = (products, productId) => products.some(({_id}) => _id === productId);

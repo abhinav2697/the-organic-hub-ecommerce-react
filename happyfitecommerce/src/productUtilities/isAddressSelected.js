@@ -1,1 +1,1 @@
-export const isAddressSelected=(newAddress,selectedAddressId)=>newAddress.some(({_id,isChecked})=>selectedAddressId===_id && isChecked===true)
+export const isAddressSelected = (newAddress, selectedAddressId) => newAddress.some(({_id, isChecked}) => selectedAddressId === _id && isChecked === true)
