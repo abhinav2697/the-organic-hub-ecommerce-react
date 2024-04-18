@@ -11,9 +11,54 @@
 
 .main-banner-image {
     height: 31.25rem;
-    background-image: url("../../assets/hero-img1.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/350/926/non_2x/fresh-organic-vegetables-a-healthy-and-colorful-meal-generated-by-ai-free-photo.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+     border-radius: 1rem ;
+    margin: 0.5rem 0;
+    
 }
   
+.main-page-container.btn{
+    color:red;
+    width:100px;
+}
+
+ 
+
+#bannerVideo{
+    border-radius: 1rem ;
+    margin: 1.5rem 0;
+    width: 88rem;
+    border:none;
+
+    
+}
+
+#btn{
+    /* background-color: #FF8000; #E7926C;*/
+   
+    cursor: pointer;
+    background-color:var(--primary-color);
+    color: var(--text-color-secondary);
+    padding: 36px 40px 40px 40px;
+    border:none;
+    border-radius: 0.5rem;
+    margin-left: 1100px;
+    margin-right: 100px;
+    margin-top: 300px;
+    font-size:21px;
+    animation:blink 1s infinite;
+ 
+}
+
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

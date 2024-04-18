@@ -30,12 +30,12 @@ const Navbar = ({ route }) => {
       <div className="heading-title-icon d-flex align-center">
         <img
           className="icon mr-1 border-radius-50"
-          src="https://therightfit.netlify.app/assets/The%20Right%20Fit-logos.jpeg"
+          src="https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais"
           alt="lightbulb"
         />
         <h1 className="heading-title">
           <Link className="link" to="/">
-            The Right Fit
+            The Organic Hub
           </Link>
         </h1>
       </div>

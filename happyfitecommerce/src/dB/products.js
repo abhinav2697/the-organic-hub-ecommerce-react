@@ -14,7 +14,7 @@ export const products = [
     discount: 67,
     outOfStock: false,
     isFast: true,
-    itemCategory: "men",
+    itemCategory: "Ghee",
     itemRating: 4.8
   },
   {
@@ -31,7 +31,7 @@ export const products = [
     discount: 75,
     outOfStock: true,
     isFast: true,
-    itemCategory: "women",
+    itemCategory: "Honey",
     itemRating: 3.9
   },
   {
@@ -48,7 +48,7 @@ export const products = [
     discount: 46,
     outOfStock: false,
     isFast: false,
-    itemCategory: "boys",
+    itemCategory: "oils",
     itemRating: 2.9
   },
   {
@@ -64,7 +64,7 @@ export const products = [
     discount: 33,
     outOfStock: false,
     isFast: false,
-    itemCategory: "girls",
+    itemCategory: "Butter",
     itemRating: 1.1
   },
   {
@@ -80,7 +80,7 @@ export const products = [
     discount: 21,
     outOfStock: false,
     isFast: true,
-    itemCategory: "girls",
+    itemCategory: "Butter",
     itemRating: 1.8
   },
   {
@@ -97,7 +97,7 @@ export const products = [
     discount: 27,
     outOfStock: true,
     isFast: true,
-    itemCategory: "boys",
+    itemCategory: "oils",
     itemRating: 2.5
   },
   {
@@ -114,7 +114,7 @@ export const products = [
     discount: 90,
     outOfStock: false,
     isFast: false,
-    itemCategory: "men",
+    itemCategory: "Ghee",
     itemRating: 3.6
   },
   {
@@ -130,7 +130,7 @@ export const products = [
     discount: 44,
     outOfStock: true,
     isFast: true,
-    itemCategory: "girls",
+    itemCategory: "Butter",
     itemRating: 4.2
   },
   {
@@ -146,7 +146,7 @@ export const products = [
     discount: 39,
     outOfStock: false,
     isFast: true,
-    itemCategory: "women",
+    itemCategory: "Honey",
     itemRating: 4.5
-  }
+  },
 ];

@@ -30,9 +30,14 @@ import {
         <Navbar route={route} />
         <main>
         {alert.open && <Alert />}
-          <Category />
-          <Banner />
-          <Brands />
+          
+            <Banner />
+            <div className="marquee">
+              <marquee><span>Shop By Category</span></marquee>
+            </div>
+            
+            <Category />
+          {/* <Brands /> */}
         </main>
         <Footer />
       </div>

@@ -2,10 +2,14 @@
     padding-top: 0;
     padding-bottom: .5rem;
     width: 100%;
+    /* background-color: var(--primary-color); */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .padding-all-16 {
     padding: 0;
     padding-top: 8px;
   }  
-    
+
+  

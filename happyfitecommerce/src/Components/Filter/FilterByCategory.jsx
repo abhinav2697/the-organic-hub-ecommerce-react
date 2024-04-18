@@ -11,7 +11,7 @@ export const FilterByCategory = () => {
 
   return (
     <div className="category-title">
-      <h3 className="sub-title margin16-top-down">Categroy</h3>
+      <h3 className="sub-title margin16-top-down">Category</h3>
       <div className="select-men">
         <label className="men d-flex gap">
           <input
@@ -30,11 +30,11 @@ export const FilterByCategory = () => {
           <input
             className="check-box"
             type="radio"
-            value="men"
-            checked={state.category === "men"}
+            value="Ghee"
+            checked={state.category === "Ghee"}
             onChange={(e) => handleChange(e)}
           />
-          Men
+          Ghee
         </label>
       </div>
       <div className="select-women margin8-top-down">
@@ -43,11 +43,11 @@ export const FilterByCategory = () => {
           <input
             className="check-box"
             type="radio"
-            value="women"
-            checked={state.category === "women"}
+            value="Honey"
+            checked={state.category === "Honey"}
             onChange={(e) => handleChange(e)}
           />
-          Women
+          Honey
         </label>
       </div>
       <div className="select-boys margin8-top-down">
@@ -55,11 +55,11 @@ export const FilterByCategory = () => {
           <input
             className="check-box"
             type="radio"
-            value="boys"
-            checked={state.category === "boys"}
+            value="oils"
+            checked={state.category === "oils"}
             onChange={(e) => handleChange(e)}
           />
-          Boys
+          Stone Pressed Oil
         </label>
       </div>
       <div className="select-girls margin8-top-down">
@@ -67,11 +67,23 @@ export const FilterByCategory = () => {
           <input
             className="check-box"
             type="radio"
-            value="girls"
-            checked={state.category === "girls"}
+            value="Butter"
+            checked={state.category === "Butter"}
             onChange={(e) => handleChange(e)}
           />
-          Girls
+          Nut Butter
+        </label>
+      </div>
+      <div className="select-boys margin8-top-down">
+        <label className="boys d-flex gap">
+          <input
+            className="check-box"
+            type="radio"
+            value="vegetables"
+            checked={state.category === "vegetables"}
+            onChange={(e) => handleChange(e)}
+          />
+          Vegetables
         </label>
       </div>
     </div>

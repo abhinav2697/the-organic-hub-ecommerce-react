@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 import "./Brands.css";
-import nike from "../../assets/n.jpg";
+ import nike from "../../assets/n.jpg";
 import addidas from "../../assets/adidas.png";
 import puma from "../../assets/puma.jpg";
 import bata from "../../assets/bata.jpg";
+// import organichub from "../../assets/organichub.gif";
 
 export const Brands = () => {
     return (
