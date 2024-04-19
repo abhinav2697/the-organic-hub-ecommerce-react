@@ -40,6 +40,7 @@ export const AuthSignUp = () => {
             placeholder="Abhinav"
             value={userName}
             onChange={(e) =>
+            
               credentialsDispatch({
                 type: "FIRST_NAME",
                 payload: e.target.value
