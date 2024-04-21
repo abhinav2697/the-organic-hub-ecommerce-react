@@ -1,8 +1,11 @@
 .brand {
     background-color: #f3f4f6;
     background-blend-mode: multiply;
+    margin-top: 10rem;
+    font-size: smaller;
+    text-align: center;
 }
 
 .gutter-large {
-    gap: 2rem
+    gap: 4rem
 }

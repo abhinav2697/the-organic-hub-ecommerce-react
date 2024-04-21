@@ -12,14 +12,12 @@ const Banner = () => {
         <div className="link" >
           <video id="bannerVideo" autoPlay muted loop>
           <source src={Video} type="video/mp4" />
-        </video>  
+          </video>  
           <div className="main-banner-image border-radius-4"><button id="btn" onClick={() => {
-          
           productDispatch({
             type: "CATEGORY",
             payload: "all"
           });
-         
                 navigate("/products")
         }}
           ><blink>SHOP NOW !</blink></button></div>
