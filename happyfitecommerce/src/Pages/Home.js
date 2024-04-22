@@ -37,7 +37,7 @@ import {
             </div>
             
             <Category />
-           <Brands /> 
+          <Brands />
         </main>
         <Footer />
       </div>
