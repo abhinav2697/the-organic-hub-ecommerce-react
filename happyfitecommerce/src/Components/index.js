@@ -18,7 +18,7 @@ export { ProductCardHorizontal } from "./ProductCard/ProductCardHorizontal";
 export { AuthLogin } from "./Auth/Login";
 export { AuthSignUp } from "./Auth/SignUp";
 export { ProductDetails } from "./ProductCard/ProductDetails";
-export { RequiresAuth } from "./RequiresAuth/RequiresAuth";
+export {RequiresAuth } from "./RequiresAuth/RequiresAuth";
 export { Loader } from "./Loader/Loader";
 export { Alert } from "./Alert/Alert";
 export { AddressForm } from "./Address/AddressForm";

@@ -50,11 +50,6 @@ const AuthProvider = ({ children }) => {
         email: email,
         password: password,
         firstName: firstName
-      }).then(response => { 
-        console.log(response.data)
-      })
-      .catch(error => {
-          console.log(error.response.data)
       });
       localStorage.setItem('token', encodedToken);
       setEToken(encodedToken);
@@ -87,11 +82,6 @@ const AuthProvider = ({ children }) => {
       } = await axios.post('/api/auth/login', {
         email: email,
         password: password
-      }).then(response => { 
-        console.log(response.data)
-      })
-      .catch(error => {
-          console.log(error.response.data)
       });
       if (status === 200) {
         localStorage.setItem('token', encodedToken);
