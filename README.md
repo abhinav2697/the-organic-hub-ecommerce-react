@@ -9,7 +9,7 @@ The organic hub is a e-commerce react web app where users can explore and buy pr
 
 
 ## List of features
-[Home Page](https://therightfitstore.netlify.app/)
+[Home Page](https://theorganichub.netlify.app/)
 - Home page has multiple categories that will take you to the product page. There are wishlist, cart and login options on the home page.
 
 Product Page
@@ -48,14 +48,14 @@ Signup
 ## Author
 
 -   Prakash Sakari - follow me on 👇
--   [GitHub](https://www.github.com/prakashsakari)
+-   [GitHub](https://www.github.com/abhinav2697)
 -   [LinkedIn](https://www.linkedin.com/in/prakashsakari/)
 -   [Twitter](https://twitter.com/prakashsakari)
 
 
 ## Live Link
 
-https://therightfitstore.netlify.app/
+https://theorganichub.netlify.app
 
 
 ## Run Locally
