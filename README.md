@@ -5,7 +5,7 @@ The organic hub is a e-commerce react web app where users can explore and buy pr
 
 # The Right Fit
 
-[The Right Fit](https://therightfitstore.netlify.app/) is one stop for all your footwear needs. A footwear ecommerce website where you can find latest and in-trend footwear for everyone. The Right Fit can generate a curated list of product according to the filter you apply. You can add a product to wishlist or to cart and increase the quantity of the product. TRF has address management where the user addresses are stored and TRF uses Razor Pay's Test Payment for checkout.
+[The Right Fit](https://theorganichub.netlify.app/) is one stop for all your footwear needs. A footwear ecommerce website where you can find latest and in-trend footwear for everyone. The Right Fit can generate a curated list of product according to the filter you apply. You can add a product to wishlist or to cart and increase the quantity of the product. TRF has address management where the user addresses are stored and TRF uses Razor Pay's Test Payment for checkout.
 
 
 ## List of features
@@ -49,8 +49,8 @@ Signup
 
 -   Prakash Sakari - follow me on 👇
 -   [GitHub](https://www.github.com/abhinav2697)
--   [LinkedIn](https://www.linkedin.com/in/prakashsakari/)
--   [Twitter](https://twitter.com/prakashsakari)
+-   [LinkedIn](https://www.linkedin.com/in/abhinav-kulkarni-95103588/)
+-   [Twitter](https://twitter.com/abhinav2697)
 
 
 ## Live Link
