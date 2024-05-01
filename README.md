@@ -1,6 +1,6 @@
 # the-organic-hub-ecommerce-react
 The organic hub is a e-commerce react web app where users can explore and buy products online
-(https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais)
+https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais
 
 
 # The Right Fit
@@ -47,7 +47,7 @@ Signup
 
 ## Author
 
--   Prakash Sakari - follow me on 👇
+-   Abhinav kulkarni - follow me on 👇
 -   [GitHub](https://www.github.com/abhinav2697)
 -   [LinkedIn](https://www.linkedin.com/in/abhinav-kulkarni-95103588/)
 -   [Twitter](https://twitter.com/abhinav2697)
@@ -64,7 +64,7 @@ Clone the project by adding the following command in the terminal.
 Make sure your have git installed and added to path.
 
 ```bash
-  git clone https://github.com/prakashsakari/the-right-fit-ecom-react.git
+  git clone https://github.com/abhinav2697/the-organic-hub-ecommerce-react.git
 ```
 
 Go to the project directory
