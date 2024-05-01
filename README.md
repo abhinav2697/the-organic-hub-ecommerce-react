@@ -86,17 +86,17 @@ Start the server
 ```
 
 ## Demo Video
-https://user-images.githubusercontent.com/80476561/174353203-a683336d-316c-46c5-82fb-4d3dc83529f2.mp4
+
 
 
 
 
 ## Screenshot
-![home1](https://user-images.githubusercontent.com/80476561/174353291-9aed0f6c-4171-4052-948d-095ae12ecbb8.png)
-![home2](https://user-images.githubusercontent.com/80476561/174353314-1b5bd344-edd7-4cdc-9032-b950d1cf5d6b.png)
-![product-page1](https://user-images.githubusercontent.com/80476561/174353349-b34cd494-8b0a-4fe8-aefc-a283e84b19f3.png)
-![product-page2](https://user-images.githubusercontent.com/80476561/174353383-ce54eabb-5043-4b5c-b3ed-bc1c5b24990c.png)
-![wishlist](https://user-images.githubusercontent.com/80476561/174353421-66f6612a-e93a-4adb-ae26-5be56a694642.png)
-![cart](https://user-images.githubusercontent.com/80476561/174353434-d7864676-307c-464c-b02c-9e7b0920acda.png)
-![address](https://user-images.githubusercontent.com/80476561/174353450-e0d607c8-3515-4239-b121-60c4ace94cf5.png)
-![payment](https://user-images.githubusercontent.com/80476561/174353495-26c1084f-f42e-4388-91b0-999460ee2881.png)
+![home1]()
+![home2]()
+![product-page1]()
+![product-page2]()
+![wishlist]()
+![cart]()
+![address]()
+![payment]()
