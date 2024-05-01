@@ -5,15 +5,15 @@ The organic hub is a e-commerce react web app where users can explore and buy pr
 
 # The Right Fit
 
-[The Right Fit](https://theorganichub.netlify.app/) is one stop for all your footwear needs. A footwear ecommerce website where you can find latest and in-trend footwear for everyone. The Right Fit can generate a curated list of product according to the filter you apply. You can add a product to wishlist or to cart and increase the quantity of the product. TRF has address management where the user addresses are stored and TRF uses Razor Pay's Test Payment for checkout.
+[The Organic Hub](https://theorganichub.netlify.app/) is a one-stop for all your footwear needs. An organic hub e-commerce website where you can find the farm fresh organic products for everyone. The organic hub  can generate a curated list of products according to the filter you apply. You can add a product to your wishlist or cart and increase the quantity of the product. TRF has address management where the user addresses are stored and TRF uses Razor Pay's Test Payment for checkout.
 
 
 ## List of features
 [Home Page](https://theorganichub.netlify.app/)
-- Home page has multiple categories that will take you to the product page. There are wishlist, cart and login options on the home page.
+-The home page has multiple categories that will take you to the product page. There are wishlist, cart, and login options on the home page.
 
 Product Page
--   Product page has all the products available in store with add to cart and add to wishlist and remove from cart options, there is a filter section that the can give the desired product. Filter section has filter by category, price range, instock, express delivery, rating, discount and sort by price low to high and high to low.
+-   Product page has all the products available in store with add to cart and add to wishlist and remove from cart options, there is a filter section that can give the desired product. The filter section has filtered by category, price range, in stock, express delivery, rating, discount, and sort by price low to high and high to low.
 
 Product Details Page
 -   Product Details Page shows the details of the product, expected delivery, product description and cta buttons
@@ -70,7 +70,7 @@ Make sure your have git installed and added to path.
 Go to the project directory
 
 ```bash
-  cd the-right-fit-ecom-react
+  cd happyfitecommerce
 ```
 
 Install dependencies
