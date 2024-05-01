@@ -1,6 +1,6 @@
 # the-organic-hub-ecommerce-react
 The organic hub is a e-commerce react web app where users can explore and buy products online
-![The Right Fit-logos - Copy-modified](https://user-images.githubusercontent.com/80476561/154789361-636d6e98-14bc-4f70-8781-59ded576726d.png)
+![The Right Fit-logos - Copy-modified]([https://user-images.githubusercontent.com/80476561/154789361-636d6e98-14bc-4f70-8781-59ded576726d.png](https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais))
 
 
 # The Right Fit
