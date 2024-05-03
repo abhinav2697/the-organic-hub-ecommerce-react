@@ -61,7 +61,7 @@ https://theorganichub.netlify.app
 ## Run Locally
 
 Clone the project by adding the following command in the terminal.
-Make sure your have git installed and added to path.
+Make sure you have git installed and added to the path.
 
 ```bash
   git clone https://github.com/abhinav2697/the-organic-hub-ecommerce-react.git
