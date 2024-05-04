@@ -5,11 +5,11 @@ The organic hub is an e-commerce react web app where users can explore and buy p
 
 # The Organic Hub
 
-[The Organic Hub](https://theorganichub.netlify.app/) is a one-stop for all your farmfresh needs. An organic hub e-commerce website where you can find farm-fresh organic products for everyone. The organic hub  can generate a curated list of products according to the filter you apply. You can add a product to your wishlist or cart and increase the quantity of the product. Theorganichub has address management where the user addresses are stored and Theorganichub uses Razor Pay's Test Payment for checkout.
+[The Organic Hub](https://theorganichubreact.netlify.app/) is a one-stop for all your farmfresh needs. An organic hub e-commerce website where you can find farm-fresh organic products for everyone. The organic hub  can generate a curated list of products according to the filter you apply. You can add a product to your wishlist or cart and increase the quantity of the product. Theorganichub has address management where the user addresses are stored and Theorganichub uses Razor Pay's Test Payment for checkout.
 
 
 ## List of features
-[Home Page](https://theorganichub.netlify.app/)
+[Home Page](https://theorganichubreact.netlify.app/)
 -The home page has multiple categories that will take you to the product page. There are wishlist, cart, and login options on the home page.
 
 Product Page
@@ -55,7 +55,7 @@ Signup
 
 ## Live Link
 
-https://theorganichub.netlify.app
+https://theorganichubreact.netlify.app
 
 
 ## Run Locally
