@@ -61,7 +61,7 @@ export const Checkout = () => {
         curreny: "INR",
         name: "The Right Fit",
         description: "Thank you for shopping with us.",
-        image: "https://therightfit.netlify.app/assets/The%20Right%20Fit-logos.jpeg",
+        image: "https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais",
 
         handler: ({payment_id}) => {
             cartDispatch({type: "CLEAR_CART"});
