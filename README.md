@@ -85,7 +85,7 @@ Start the server
   npm start
 ```
 
-<!--## Demo Video
+<!--## Demo Video-->
 
 
 
@@ -99,4 +99,4 @@ Start the server
 ![wishlist]()
 ![cart]()
 ![address]()
-![payment]()-->
+![payment]()
