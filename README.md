@@ -95,7 +95,7 @@ Start the server
 ![home1]()
 ![home2]()
 ![product-page1](https://github.com/abhinav2697/the-organic-hub-ecommerce-react/blob/ba8d64264ec8a49a9072e41793ec04e4529c61f2/happyfitecommerce/src/assets/products.png)
-![product-page2]()
+![product-page2](https://github.com/abhinav2697/the-organic-hub-ecommerce-react/blob/28bcf2bac0e453765dc91e185a1ec9eb8eeaf205/happyfitecommerce/src/assets/producta.jpg.png)
 ![wishlist]()
 ![cart]()
 ![address]()
