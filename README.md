@@ -94,7 +94,7 @@ Start the server
 ## Screenshot
 ![home1]()
 ![home2]()
-![product-page1]()
+![product-page1](https://github.com/abhinav2697/the-organic-hub-ecommerce-react/blob/ba8d64264ec8a49a9072e41793ec04e4529c61f2/happyfitecommerce/src/assets/products.png)
 ![product-page2]()
 ![wishlist]()
 ![cart]()
