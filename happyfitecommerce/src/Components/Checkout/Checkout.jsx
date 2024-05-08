@@ -59,7 +59,7 @@ export const Checkout = () => {
         key: "rzp_test_VSdp7X3K39GwBK",
         amount: totalAmount * 100,
         curreny: "INR",
-        name: "The Right Fit",
+        name: "The Organic Hub",
         description: "Thank you for shopping with us.",
         image: "https://img.freepik.com/free-vector/100-organic-quality-food-green-sticker-label-design_1017-25574.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713052800&semt=ais",
 
